@@ -1,6 +1,7 @@
 import { useFonts } from "expo-font";
 import { Stack, SplashScreen } from "expo-router";
 import { useEffect } from "react";
+
 const AppLayout = () => {
   const [fontsLoaded, error] = useFonts({
     "Poppins-Black": require("../assets/fonts/Poppins-Black.ttf"),

@@ -15,6 +15,22 @@ const TabLayout = () => {
         }}
       />
       <Tabs.Screen
+        name="browse/index"
+        options={{
+          title: "Providers",
+          // href: null,
+          tabBarIcon: ({ color }) => <MaterialIcons name="manage-search" size={24} color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="browse/[provider]"
+        options={{
+          title: "Provider Detail",
+          href: null,
+          tabBarIcon: ({ color }) => <MaterialIcons name="manage-search" size={24} color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="classify"
         options={{
           title: "Upload/Classify",

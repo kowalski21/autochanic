@@ -27,7 +27,7 @@ const HomeScreen = () => {
 
       <View className="flex  mt-5 mb-5">
         <Link href="/register" asChild>
-          <TouchableOpacity className="bg-black rounded-2xl p-4 w-[200px]">
+          <TouchableOpacity className="cursor:pointer rounded-md bg-gray-900 px-3.5 py-2.5 ">
             <Text className="text-center font-cbold text-lg text-white font-bold">Register</Text>
           </TouchableOpacity>
         </Link>
